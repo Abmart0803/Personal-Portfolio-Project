@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins: sawght@400;500;700&display=swap");
 
 * {
   margin: 0;
@@ -59,7 +59,7 @@ section:nth-of-type(1) {
 }
 
 .section-head p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -69,7 +69,7 @@ section:nth-of-type(1) {
 
 .section-head h1,
 h2 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -88,7 +88,7 @@ h2 {
 .self-container a {
   text-decoration: none;
   display: block;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -114,7 +114,7 @@ h2 {
 
 .nav-logo h1 {
   width: 76px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
