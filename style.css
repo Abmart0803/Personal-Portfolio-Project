@@ -1,132 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
-*{
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    max-width: 100%;
-    min-height: 100vh;
-    background-color: #f0f0f0;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #f0f0f0;
 }
 
 header {
-    background-color: #fff;
+  background-color: #fff;
 }
 
-.ambuger-menu{
-    display: flex;
-    flex-direction: column;
-    /* gap: 5px; */
+.ambuger-menu {
+  display: flex;
+  flex-direction: column;
 }
 
 .bar {
-    display: block;
-    width: 33px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #162ae3;
+  display: block;
+  width: 33px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #162ae3;
 }
 
-.nav-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem;
-
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
 }
 
 section {
-    padding: 5rem 1.25rem 6rem;
-    background-color: #fff;
+  padding: 5rem 1.25rem 6rem;
+  background-color: #fff;
 }
 
 section:nth-of-type(1) {
-    border-bottom-left-radius: 80px;
-    background-image: url('./image/hero_bg.png');
-    background-repeat: no-repeat;
+  border-bottom-left-radius: 80px;
+  background-image: url("./image/hero_bg.png");
+  background-repeat: no-repeat;
 }
 
-.section-head{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    width: 80%;
-    padding: 0.6em 0;
-
+.section-head {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 80%;
+  padding: 0.6em 0;
 }
 
-.section-head p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
+.section-head p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
-.section-head h1, h2{
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #172B4D;
-    font-style: normal;
-    
+.section-head h1,
+h2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  font-style: normal;
 }
 
-.self-container{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
+.self-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.self-container a{
-    text-decoration: none;
-    display: block;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7F8CFF;
-    height: 24px;
-    flex: none;
-    /* order: 0; */
-    
-}
-.list-items{
-    display: flex;
-    gap: 10px;
+.self-container a {
+  text-decoration: none;
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  height: 24px;
+  flex: none;
 }
 
-.list-items img{
-    height: 15px;
-    width: 15px;
+.list-items {
+  display: flex;
+  gap: 10px;
 }
 
-.list-items li{
-    list-style: none;
+.list-items img {
+  height: 15px;
+  width: 15px;
 }
 
-.nav-logo h1{
-    width: 76px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    color: #6070FF;
-    text-decoration: none;
+.list-items li {
+  list-style: none;
+}
 
+.nav-logo h1 {
+  width: 76px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  text-decoration: none;
 }
