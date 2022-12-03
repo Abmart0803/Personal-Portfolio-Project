@@ -1,4 +1,37 @@
-<a name="Portfolio-Setup-and-mobile-first"></a>
+<a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -22,104 +55,118 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
 # 📖 [Personal-Portfolio-Project] <a name="about-project"></a>
 
-**[Personal-Portfolio-Project]** is a project we produce to let all our users and client get to know what we can do for them, in this project we shocase our services, and how our numerous client can get across to use whenever they need our services.
+> 
 
-## 🛠 Built With <a name="Visual Studio Code"></a>
+**[Personal-Portfolio-Project]** is a project is designed to showcase my works and service so everyone that may need my services can get in touch with me through my social media contacts on my Personal Portfolio website..
 
-### Tech Stack <a name="Viual Studio Code"></a>
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>html</a></li>
+    <li>css</a></li>
+    <li>git</a></li>
+  </ul>
+</details>
+
+
 
 ### Key Features <a name="key-features"></a>
 
-- HTML
-- CSS
-- Visual Studio Code 
-- Figma
+- **[html]**
+- **[css]**
+- **[git]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-Clone the repository using git, and open it with visual studio code.
-
-### Setup
-
-Clone this repository to your desired folder:
-
-  cd "your-folder"
-  git clone  `https://github.com/Abmart0803/Personal-Portfolio-Project`
-
-
-
-### Usage
-
-To open the project, use yout prefered explorer and open the index.html file 
-
-
-### Deployment
-
-You can deploy this project using visual studio code and Figma.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
 
-👤 ** Abiola Ayodele Martins**
+👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/joramot/my-portfolio)
-- Twitter: [@twitterhandle](@elrulis)
-- LinkedIn: [LinkedIn](@adelphin)
+- GitHub: [@Abmart0803](https://github.com/Abmart0803)
+- Twitter: [@MartinsAbmart](https://twitter.com/MartinsAbmart)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/abmartcodingworld)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can contact the author througt the above meddia links or by email to dalejandro.005@gmail.com
+> Write a message to encourage readers to support your project
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and all the persons that got in touch with me while we were working on this project
+I would like to thank everyone that has contributed in one way or the other to this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
-- Is it difficult?
+- **[How to make sure node_modules files are ignore?]**
 
-  - If you have knowledge about github basic commands, installing npm extension in visual studio code, figma, HTML and CSS it is easier, in other way, it can be little complicated
+  - [By creating .gitignore file and add node_modules file to it.]
+
+- **[Does your website work with any devices?]**
+
+  - [Yes, that is also some of our work will render to ur numerous clients.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT) licensed.
+This project is [MIT](./LICENSE) licensed.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
