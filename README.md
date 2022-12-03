@@ -59,38 +59,30 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Personal-Portfolio-Project] <a name="about-project"></a>
 
-> 
+> Describe your project in 1 or 2 sentences.
 
-**[Personal-Portfolio-Project]** is a project is designed to showcase my works and service so everyone that may need my services can get in touch with me through my social media contacts on my Personal Portfolio website..
+**[Personal-Portfolio-Project]** is a project we produce to let all our users and client get to know what we can do for them, in this project we shocase our services, and how our numerous client can get across to use whenever they need our services.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
-  <summary>Client</summary>
   <ul>
     <li>html</a></li>
     <li>css</a></li>
-    <li>git</a></li>
   </ul>
 </details>
 
-
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[html]**
-- **[css]**
-- **[git]**
+- **[Resonsiveness]**
+- **[stylish]**
+- **[linking]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,6 +91,72 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+By now the project is not deploring, we are going to be adding some other features like Our Portfolio page, out contact page and more.
+
+To get a local copy up and running, follow these steps.
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,16 +164,19 @@ After you're finished please remove all the comments and instructions!
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@Abmart0803](https://github.com/Abmart0803)
 - Twitter: [@MartinsAbmart](https://twitter.com/MartinsAbmart)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/abmartcodingworld)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Portfolio page]**
+- [ ] **[Contact Us page]**
+- [ ] **[About Us page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +194,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project...
 
@@ -143,7 +203,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank everyone that has contributed in one way or the other to this project.
+I acknowledge the inmense contribution from my Microverse Team group, my coding partners, my stand up team and at large my menthor. I would like to thank you all for your great contributions....
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,12 +212,10 @@ I would like to thank everyone that has contributed in one way or the other to t
 ## ❓ FAQ <a name="faq"></a>
 
 - **[How to make sure node_modules files are ignore?]**
+      [By creating .gitignore file and add node_modules file to it.]
 
-  - [By creating .gitignore file and add node_modules file to it.]
-
-- **[Does your website work with any devices?]**
-
-  - [Yes, that is also some of our work will render to ur numerous clients.]
+- **[What is uses of github workflow?]
+      [To show let you know the branch you are currently working on]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,6 +225,6 @@ I would like to thank everyone that has contributed in one way or the other to t
 
 This project is [MIT](./LICENSE) licensed.
 
-
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
