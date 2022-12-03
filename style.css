@@ -203,3 +203,85 @@ button {
   font-size: 17px;
   width: fit-content;
 }
+
+button:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition: all 300 ease-in-out;
+}
+
+#about {
+  margin: 68px 0;
+  /* background-image: url("./images/aboutmetop_desktop.jpg"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.about_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  padding: 0 12px;
+  background-image: url("./images/aboutbottom-mobile.jpg");
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.about_title {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #172b4d;
+  margin: 0;
+}
+
+.about_text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0;
+  color: #42526e;
+}
+
+.about_button {
+  display: flex;
+  border: none;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.about_button:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition: all 300 ease-in-out;
+}
+
+.about_button:active {
+  background: #008552;
+}
+
+.about_bottom {
+  margin: 59px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
