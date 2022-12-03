@@ -57,6 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
+
 # 📖 [Personal-Portfolio-Project] <a name="about-project"></a>
 
 > 
@@ -121,6 +122,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- CONTRIBUTING -->
 
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -137,13 +139,16 @@ Feel free to check the [issues page](../../issues/).
 
 If you like this project...
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank everyone that has contributed in one way or the other to this project.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,6 +163,7 @@ I would like to thank everyone that has contributed in one way or the other to t
 - **[Does your website work with any devices?]**
 
   - [Yes, that is also some of our work will render to ur numerous clients.]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
