@@ -104,11 +104,10 @@ h2 {
 }
 
 .list-items img {
-    Width: 19.99px;
-    Height: 19.96px;
-    Top: 470px;
-    Left: 24px;
-    
+  width: 19.99px;
+  height: 19.96px;
+  top: 470px;
+  left: 24px;
 }
 
 .list-items li {
@@ -126,7 +125,6 @@ h2 {
   text-decoration: none;
 }
 
-
 .portfolio_button {
   display: flex;
   flex-direction: row;
@@ -142,10 +140,8 @@ h2 {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-   margin: 14px 0;
-  border: 1px solid #6070FF;
-  border-radius: 8px;
-  
+  margin: 14px 0;
+  border: 1px solid #6070ff;
 }
 
 .portfolio_button:hover {
@@ -164,4 +160,3 @@ h2 {
   align-items: center;
   margin: 52px 26px;
 }
-
