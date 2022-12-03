@@ -23,7 +23,9 @@
 - [📝 License](#license)
 
 
+
 # 📖 [Personal-Portfolio-Project] <a name="about-project"></a>
+
 
 **[Personal-Portfolio-Project]** is a project we produce to let all our users and client get to know what we can do for them, in this project we shocase our services, and how our numerous client can get across to use whenever they need our services.
 
@@ -51,6 +53,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 Clone the repository using git, and open it with visual studio code.
+
 
 ### Setup
 
@@ -87,6 +90,7 @@ You can deploy this project using visual studio code and Figma.
 
 
 
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -96,9 +100,12 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
+
 If you like this project you can contact the author througt the above meddia links or by email to dalejandro.005@gmail.com
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -106,14 +113,17 @@ If you like this project you can contact the author througt the above meddia lin
 
 I would like to thank Microverse and all the persons that got in touch with me while we were working on this project
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## ❓ FAQ <a name="faq"></a>
 
+
 - Is it difficult?
 
   - If you have knowledge about github basic commands, installing npm extension in visual studio code, figma, HTML and CSS it is easier, in other way, it can be little complicated
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
