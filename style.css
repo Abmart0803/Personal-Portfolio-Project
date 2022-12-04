@@ -249,9 +249,10 @@ span {
   display: inline-block;
 }
 
-.line {
+.lang-line {
   font-weight: 500;
   color: #5e6c84;
+  transform: rotate(90deg);
 }
 
 .line:nth-of-type(1) {
