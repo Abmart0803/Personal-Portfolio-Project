@@ -212,7 +212,7 @@ button {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  color: #172b4d
+  color: #172b4d;
 }
 
 .para-text {
@@ -262,7 +262,7 @@ span {
   align-items: center;
   padding: 24px;
   gap: 12px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
 }
 
