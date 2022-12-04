@@ -209,3 +209,49 @@ button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   transition: all 300 ease-in-out;
 }
+
+.language-image {
+  flex-direction: column;
+  width: 303px;
+  height: 66.72px;
+  background: #F7F7F9;
+  border-radius: 8px;
+}
+
+.language {
+position: flex;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #000000;
+margin-bottom: 40px;
+
+}
+
+.frameworks {
+  position: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 24px;
+  display: flex;
+  /* align-items: center; */
+  color: #000000;
+  margin-bottom: 70px;
+  
+  }
+
+  .frameworks p {
+    margin-bottom: 40px;
+  }
+
+  .frameworks hr {
+    margin-bottom: 40px;
+    border-top: 1px solid lightslategray;
+  }
