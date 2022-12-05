@@ -196,6 +196,15 @@ ul {
   font-size: 12px;
 }
 
+.project-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.project-skills :hover {
+  background-color: green;
+
+}
+
 button {
   margin-top: 24px;
   padding: 12px;
@@ -206,6 +215,7 @@ button {
   font-size: 17px;
   width: fit-content;
 }
+
 
 .header-text {
   max-width: 50%;
