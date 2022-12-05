@@ -100,7 +100,31 @@ No live Demo for this project yet.
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
 
+Prerequisites
+In order to run this project you need to run the following command:
+
+npm init -y
+
+Setup
+Clone this repository to your desired folder:
+
+cd my-folder
+git clone https://github.com/Abmart0803/Personal-Portfolio-Project.git
+
+Install
+Install this project with:
+
+cd my-project
+npm install
+Usage
+To run the project, execute the following command:
+
+run with live server
+Deployment
+You can deploy this project using:
+vercel
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,6 +142,9 @@ No live Demo for this project yet.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+🔭 Future Features
+ Contact section
+ Footer section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
