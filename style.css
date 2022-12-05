@@ -205,6 +205,10 @@ ul {
   background-color: green;
 }
 
+span {
+  display: inline-block;
+}
+
 .button :hover span {
   background-color: green;
 }
@@ -256,10 +260,6 @@ ul.list-items.skill-items {
   font-size: px;
   color: #253858;
   font-weight: 500;
-}
-
-span {
-  display: inline-block;
 }
 
 .lang-line {
@@ -344,7 +344,6 @@ hr.hr-line {
   background: #008552;
 }
 
-
 .about_bottom {
   margin: 59px 0;
   display: flex;
@@ -366,4 +365,3 @@ hr.hr-line {
     gap: 24px;
   }
 }
-
