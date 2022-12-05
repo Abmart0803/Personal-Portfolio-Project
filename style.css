@@ -95,7 +95,7 @@ h2 {
   display: block;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 50;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
@@ -196,12 +196,16 @@ ul {
   font-size: 12px;
 }
 
-.project-section {
+/* .project-section {
   display: grid;
   grid-template-columns: auto auto auto;
-}
+} */
 
 .project-skills :hover {
+  background-color: green;
+}
+
+.button :hover span {
   background-color: green;
 }
 
@@ -284,3 +288,82 @@ span {
 hr.hr-line {
   border: 1px solid #bbb;
 }
+
+.portfolio_button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 10px;
+  width: 122px;
+  height: 48px;
+  bottom: 8px;
+  background: #36b37f;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  margin: 14px 0;
+}
+
+.portfolio_button:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition: all 300 ease-in-out;
+}
+
+.portfolio_button:active {
+  background: #008552;
+}
+
+.about_button {
+  display: flex;
+  border: none;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.about_button:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition: all 300 ease-in-out;
+}
+
+.about_button:active {
+  background: #008552;
+}
+
+
+.about_bottom {
+  margin: 59px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 1200px) {
+  .about_bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 143px;
+  }
+
+  .portfolio_work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 143px;
+    gap: 24px;
+  }
+}
+
