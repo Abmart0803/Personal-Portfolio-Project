@@ -194,9 +194,6 @@ ul {
   border-radius: 8px;
   background-color: #ebebff;
   font-size: 12px;
-}
-
-.project-skills li {
   color: #162ae3;
   font-weight: bold;
 }
@@ -292,40 +289,31 @@ hr.hr-line {
   height: 48px;
   bottom: 8px;
   border-radius: 4px;
-  color: #396DF2;
+  color: #396df2;
   font-size: 17px;
   line-height: 24px;
   margin: 14px 0;
   font-weight: bold;
-  
-}
-
-.portfolio_button {
-  background: white;
 }
 
 .about_button {
   display: flex;
-  color: #396DF2;
+  color: blue;
   justify-content: center;
   align-items: center;
   padding: 12px;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition: all 300 ease-in-out;
 }
 
 .about_button:hover {
   background: blue;
   color: white;
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  transition: all 300 ease-in-out;
-}
-
-.about_button {
-  color: blue;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   transition: all 300 ease-in-out;
 }
