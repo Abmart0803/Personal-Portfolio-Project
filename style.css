@@ -196,21 +196,13 @@ ul {
   font-size: 12px;
 }
 
-/* .project-section {
-  display: grid;
-  grid-template-columns: auto auto auto;
-} */
-
-.project-skills :hover {
-  background-color: green;
+.project-skills li {
+  color: #162ae3;
+  font-weight: bold;
 }
 
 span {
   display: inline-block;
-}
-
-.button :hover span {
-  background-color: green;
 }
 
 button {
@@ -299,34 +291,25 @@ hr.hr-line {
   width: 122px;
   height: 48px;
   bottom: 8px;
-  background: #36b37f;
   border-radius: 4px;
-  color: #fff;
-  font-weight: 500;
+  color: #396DF2;
   font-size: 17px;
   line-height: 24px;
-  border: none;
   margin: 14px 0;
+  font-weight: bold;
+  
 }
 
-.portfolio_button:hover {
-  background: #36b37f;
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-  transition: all 300 ease-in-out;
-}
-
-.portfolio_button:active {
-  background: #008552;
+.portfolio_button {
+  background: white;
 }
 
 .about_button {
   display: flex;
-  border: none;
-  color: #fff;
+  color: #396DF2;
   justify-content: center;
   align-items: center;
   padding: 12px;
-  background: #36b37f;
   border-radius: 4px;
   font-weight: 500;
   font-size: 17px;
@@ -335,13 +318,20 @@ hr.hr-line {
 }
 
 .about_button:hover {
-  background: #36b37f;
+  background: blue;
+  color: white;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  transition: all 300 ease-in-out;
+}
+
+.about_button {
+  color: blue;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   transition: all 300 ease-in-out;
 }
 
 .about_button:active {
-  background: #008552;
+  background: darkblue;
 }
 
 .about_bottom {
