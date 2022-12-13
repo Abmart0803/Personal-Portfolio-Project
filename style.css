@@ -185,6 +185,7 @@ ul {
 }
 
 .project-skills {
+  /* float: right; */
   gap: 8px;
   margin: 12px 0;
 }
