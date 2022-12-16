@@ -419,7 +419,7 @@ form {
 }
 
 .contact_button {
-   display: flex;
+  display: flex;
   justify-content: left;
   color: blue;
   font-weight: bold;
@@ -469,10 +469,8 @@ form {
   margin-left: 0;
 }
 
-
-
 .toolbar {
-  display: none;  
+  display: none;
 }
 
 .desktop {
@@ -491,7 +489,6 @@ form {
   display: none;
 }
 
-
 /* below code  from 768px to 992px, desktop styles start here */
 
 @media (min-width: 768px) {
@@ -500,7 +497,6 @@ form {
     display: block;
   }
 
-  
   .desktop-project-title {
     display: flex;
   }
@@ -517,7 +513,6 @@ form {
     display: none;
   }
 
-  
   .mobile {
     display: none;
   }
@@ -528,8 +523,8 @@ form {
 
   .desktop {
     display: block;
-    
   }
+
   .project-card {
     flex-direction: row;
   }
@@ -544,7 +539,6 @@ form {
 
   .about-container:nth-of-type(even) {
     flex-direction: row-reverse;
-
   }
 
   .list-items img {
@@ -552,34 +546,25 @@ form {
     width: 15px;
   }
 
-  .toolbar_list{
+  .toolbar_list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 32px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #344563
-    
+    color: #344563;
   }
-  .ambuger-menu{
-  display: none;
+
+  .ambuger-menu {
+    display: none;
   }
 
   .project-container {
     display: flex;
     flex-direction: column;
   }
-
-
 }
-
-
-
-
-
-
-
