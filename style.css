@@ -185,7 +185,6 @@ ul {
 }
 
 .project-skills {
-  /* float: right; */
   gap: 8px;
   margin: 12px 0;
 }
@@ -326,7 +325,6 @@ hr.hr-line {
 .about_bottom {
   margin: 59px 0;
   display: flex;
-  flex-direction: column;
   gap: 24px;
 }
 
@@ -334,21 +332,21 @@ hr.hr-line {
 
 #contact_form {
   height: 769px;
-  width: 375px;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./image/contact_me.png");
+  border-top-left-radius: 60px;
   background-repeat: no-repeat;
-  background-position: cover;
+  background-color: #6070ff;
+  background-position: right;
+  margin-top: -50px;
 }
 
 .form_container {
-  background-image: url(./image/contact\ form\ shapes-mobile.png);
+  background-image: url(./image/contact-form-shapes-mobile.png);
   background-repeat: no-repeat;
-  background-position: 96%;
-
+  background-position: 100%;
 }
 
 .contact_header1 {
@@ -356,15 +354,13 @@ hr.hr-line {
   color: white;
   padding-left: 80px;
   padding-top: 103px;
-  /* width: 801px; */
   height: 56px;
   top: 4734px;
-  /* left: -213px; */
   font-family: Poppins, sans-serif;
-  weight: 700;
+  font-weight: 700;
   size: 40px;
   line-height: 52px;
-  align: center;
+  align-items: center;
 }
 
 .contact_header2 {
@@ -374,10 +370,9 @@ hr.hr-line {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin: 0 24px 58px 24px;
   padding: 50px 24px 15px 24px;
-  /* position: absolute; */
   width: 327px;
   height: 102px;
   left: 24px;
@@ -390,7 +385,6 @@ form {
 
 .contact_form {
   padding-top: 70px;
-
 }
 
 .contact_form ul {
@@ -418,7 +412,6 @@ form {
 
 .contact_form ul li textarea {
   width: 327px;
-  /* width: 100%; */
   padding: 15px 15.5px;
   height: 102px;
   margin-top: 10px;
@@ -426,41 +419,20 @@ form {
 }
 
 .contact_button {
-  /* padding: 0; */
-  width: 80px;
-  display: flex;
+   display: flex;
   justify-content: left;
   color: blue;
   font-weight: bold;
   border: 1px solid white;
   align-items: stretch;
   background-color: white;
-  display: flex;
   flex-direction: row;
-  align-items: center;
   padding: 12px 16px;
-  /* position: absolute; */
   width: 140px;
   height: 48px;
   left: 24px;
   top: 5317px;
-  
 }
-
-img {
-  align-items: center;
-  padding-left: 120px;
-  padding-top: 40px;
-}
-
-/* button {
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  color: white;
-
-} */
 
 #socials {
   width: 100%;
@@ -498,17 +470,116 @@ img {
 }
 
 
-@media (min-width: 1200px) {
-  .about_bottom {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0 143px;
+
+.toolbar {
+  display: none;  
+}
+
+.desktop {
+  display: none;
+}
+
+#about {
+  padding-bottom: 8rem;
+}
+
+.desktop-project-title {
+  display: none;
+}
+
+.desktop-p-note {
+  display: none;
+}
+
+
+/* below code  from 768px to 992px, desktop styles start here */
+
+@media (min-width: 768px) {
+  .toolbar {
+    width: 300px;
+    display: block;
   }
 
-  .portfolio_work {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 0 143px;
-    gap: 24px;
+  
+  .desktop-project-title {
+    display: flex;
   }
+
+  .project-title {
+    display: none;
+  }
+
+  .desktop-p-note {
+    display: flex;
+  }
+
+  .mobile-p-note {
+    display: none;
+  }
+
+  
+  .mobile {
+    display: none;
+  }
+
+  #contact_form {
+    background-image: url(./image/desktopimbackgroundage.svg);
+  }
+
+  .desktop {
+    display: block;
+    
+  }
+  .project-card {
+    flex-direction: row;
+  }
+
+  .project-card:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  .about-container {
+    flex-direction: row;
+  }
+
+  .about-container:nth-of-type(even) {
+    flex-direction: row-reverse;
+
+  }
+
+  .list-items img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .toolbar_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563
+    
+  }
+  .ambuger-menu{
+  display: none;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 }
+
+
+
+
+
+
+
