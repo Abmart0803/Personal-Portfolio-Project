@@ -489,24 +489,11 @@ form {
   display: none;
 }
 
-.toolbar {
-  display: none;  
-}
-
-
 /* below code  from 768px to 992px, desktop styles start here */
-
 @media (min-width: 768px) {
   .toolbar {
     width: 300px;
     display: block;
-  }
-
-  .toolbar_list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 32px;
   }
 
   .desktop-project-title {
