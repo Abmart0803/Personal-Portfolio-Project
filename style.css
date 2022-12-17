@@ -492,7 +492,6 @@ form {
   display: none;
 }
 
-
 /* below code  from 768px to 992px, desktop styles start here */
 @media (min-width: 768px) {
   .toolbar {
@@ -507,6 +506,7 @@ form {
   .mobile-about {
     display: none;
   }
+
   .desktop-about {
     display: flex;
   }
