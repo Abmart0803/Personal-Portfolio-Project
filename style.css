@@ -489,6 +489,12 @@ form {
   display: none;
 }
 
+.line-image {
+  display: flex;
+  padding-left: 120px;
+  padding-top: 10px;
+}
+
 /* below code  from 768px to 992px, desktop styles start here */
 @media (min-width: 768px) {
   .toolbar {
@@ -498,6 +504,28 @@ form {
 
   .desktop-project-title {
     display: flex;
+  }
+
+  .line-image {
+    display: none;
+  }
+
+  .section-head {
+    background-image: url(./image/Header\ bg.png);
+  }
+
+  .major-container {
+    margin-left: 70px;
+  }
+
+  .lang {
+    display: inline-block;
+    color: red;
+    flex-direction: row;
+  }
+
+  .lang-list {
+    display: inline-block;
   }
 
   .project-title {
@@ -536,10 +564,16 @@ form {
     flex-direction: row;
   }
 
-  .about-container:nth-of-type(even) {
-    flex-direction: row-reverse;
+  .lang-div {
+    flex-direction: row;
   }
 
+  .lang-list {
+    height: 250px;
+    width: 250px;
+
+  }
+  
   .list-items img {
     height: 15px;
     width: 15px;
