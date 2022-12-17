@@ -54,14 +54,6 @@ section:nth-of-type(1) {
   background-repeat: no-repeat;
 }
 
-.section-head {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  width: 80%;
-  padding: 0.6em 0;
-}
-
 .section-head p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -69,6 +61,7 @@ section:nth-of-type(1) {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding-top: 30px;
 }
 
 .section-head h1,
@@ -495,6 +488,11 @@ form {
   padding-top: 10px;
 }
 
+.desktop-about {
+  display: none;
+}
+
+
 /* below code  from 768px to 992px, desktop styles start here */
 @media (min-width: 768px) {
   .toolbar {
@@ -503,6 +501,13 @@ form {
   }
 
   .desktop-project-title {
+    display: flex;
+  }
+
+  .mobile-about {
+    display: none;
+  }
+  .desktop-about {
     display: flex;
   }
 
@@ -526,8 +531,8 @@ form {
 
   .lang-list {
     display: inline-block;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 145px;
   }
 
   .project-title {
@@ -568,6 +573,7 @@ form {
 
   .lang-div {
     flex-direction: row;
+    padding-right: 140px;
   }
 
   .list-items img {
