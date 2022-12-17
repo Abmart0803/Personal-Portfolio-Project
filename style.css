@@ -304,6 +304,8 @@ hr.hr-line {
   transition: all 300 ease-in-out;
 }
 
+/* animation start here  */
+
 .about_button:hover {
   background: blue;
   color: white;
@@ -315,10 +317,9 @@ hr.hr-line {
   background: darkblue;
 }
 
-.about_bottom {
-  margin: 59px 0;
-  display: flex;
-  gap: 24px;
+.portfolio_button:hover {
+  width: 300px;
+  scale: (1 0.5);
 }
 
 /* ***************************************contact form start here******************************************** */
@@ -425,6 +426,12 @@ form {
   height: 48px;
   left: 24px;
   top: 5317px;
+}
+
+.contact_button:hover {
+  width: 300px;
+  scale: (1 0.5);
+  background-color: red;
 }
 
 #socials {
@@ -606,7 +613,6 @@ form {
   section {
     padding: 5rem 7.25rem 6rem;
     background-color: #fff;
-
-    /* gap: 2rem; */
+    /* gap: 2rem
   }
 }
