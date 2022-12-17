@@ -526,6 +526,8 @@ form {
 
   .lang-list {
     display: inline-block;
+    height: 250px;
+    width: 250px;
   }
 
   .project-title {
@@ -568,12 +570,6 @@ form {
     flex-direction: row;
   }
 
-  .lang-list {
-    height: 250px;
-    width: 250px;
-
-  }
-  
   .list-items img {
     height: 15px;
     width: 15px;
