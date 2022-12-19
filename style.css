@@ -134,7 +134,7 @@ a {
 
 .project-card {
   flex-direction: column;
-  gap: 24px;
+  gap: 44px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
@@ -576,6 +576,7 @@ form {
 
   .about-container {
     flex-direction: row;
+    gap: 44px;
   }
 
   .lang-div {
