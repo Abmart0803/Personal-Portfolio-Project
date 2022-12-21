@@ -199,7 +199,7 @@ I would like to thank everyone that has contributed in one way or the other to t
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENCE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 
 
