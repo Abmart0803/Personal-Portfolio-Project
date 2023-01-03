@@ -90,7 +90,6 @@ body {
   width: 15px;
 }
 
-
 .closeIcon {
   display: block;
   background-image: url(imgs/x-icon.png);
@@ -133,7 +132,7 @@ body {
   position: relative;
   width: 1440px;
   height: 846px;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .Greetings h1 {
@@ -147,7 +146,7 @@ body {
 }
 
 .Greetings {
-  padding-top: 0px;
+  padding-top: 0;
   margin-top: 0%;
 }
 
@@ -237,7 +236,6 @@ main {
   height: 586px;
   left: 0;
   top: 0;
-  background-image: url(imgs/Snapshoot\ Portfolio\ \(1\) .png);
   margin-top: 100px;
   align-content: center;
 }
@@ -623,7 +621,8 @@ textarea {
 .btn:hover {
   background-color: var(--clr-purple);
   color: var(--clr-white);
-  size: 3px;
+
+  /* size: 3px; */
 }
 
 .card-tags {
@@ -681,12 +680,11 @@ textarea {
   border-radius: 8px;
 }
 
-
-
 @media screen and (min-width: 320px) {
   .box2 {
     background-image: url(imgs/header-shapes\ mobile@2x.svg);
-    background-position: 0% auto;
+
+    /* background-position: 0% auto; */
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -743,8 +741,6 @@ textarea {
     line-height: 3rem;
   }
 }
-
-
 
 @media screen and (min-width: 768px) {
   .box2 {
