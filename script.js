@@ -1,5 +1,3 @@
-/* eslint-disable func-names */
-/* eslint-disable linebreak-style */
 const hamburger = document.querySelector('.hamburger');
 const ulCont = document.querySelector('.ul-cont');
 // const modal = document.querySelector('.popup-window');
@@ -7,10 +5,11 @@ const ulCont = document.querySelector('.ul-cont');
 // const openModalBtn = document.querySelector('.card-button');
 // const closeModalBtn = document.querySelector('.closeIcon-popup');
 
-function myFunction() {
+// function myFunction() {
+hamburger.addEventListener('click', () => {
   hamburger.classList.add('hamburger-disappear');
   ulCont.classList.add('ul-cont-appear');
-}
+});
 
 ulCont.addEventListener('click', ((e) => {
   if (e.target.classList[0] === 'closeIcon') {
@@ -21,6 +20,8 @@ ulCont.addEventListener('click', ((e) => {
     ulCont.classList.remove('ul-cont-appear');
   }
 }));
+
+// myFunction();
 
 // const openModal = function () {
 //   overlay.classList.remove('hidden');
