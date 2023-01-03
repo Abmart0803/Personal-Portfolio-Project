@@ -25,6 +25,40 @@ header {
   flex-direction: column;
 }
 
+.ambuger-menu.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.ambuger-menu.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.ambuger-menu.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* .toolbar_list {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: #363636;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+} */
+
+.nav-item  {
+  margin: 16px 0;
+}
+
+/* .toolbar_list.active {
+  left: 0;
+} */
+
+
+
 .bar {
   display: block;
   width: 33px;
