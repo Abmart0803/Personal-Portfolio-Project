@@ -1,7 +1,6 @@
 const hamburger = document.querySelector('.hamburger');
 const ulCont = document.querySelector('.ul-cont');
 
-
 hamburger.addEventListener('click', () => {
   hamburger.classList.add('hamburger-disappear');
   ulCont.classList.add('ul-cont-appear');
