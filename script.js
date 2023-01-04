@@ -16,4 +16,3 @@ ulCont.addEventListener('click', ((e) => {
     ulCont.classList.remove('ul-cont-appear');
   }
 }));
-
