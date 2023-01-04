@@ -193,14 +193,13 @@ I would like to thank everyone that has contributed in one way or the other to t
 
   - [Yes, that is also some of our work will render to ur numerous clients.]
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENCE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 
 
